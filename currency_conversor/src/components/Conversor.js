@@ -22,8 +22,10 @@ function Conversor (props) {
                     <button onClick={handleCalc}>
                         Converter
                     </button>
+                    <p>{currency}</p>
+                    <p> Valor do dólar: ${baseCurrency}</p>
 
-                <h2>Resultado: {result} {baseCurrency} {currency}</h2>
+                <h2>Resultado: R${result}</h2>
         </div>
     )
 }
